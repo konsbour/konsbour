@@ -1,0 +1,15 @@
+.woocommerce .widget_product_categories .product-categories li:not(.current-cat) {
+    display: none;
+}
+
+.woocommerce .widget_product_categories .product-categories li.current-cat > ul > li {
+    display: list-item;
+}.woocommerce .widget_product_categories .product-categories li.current-cat > ul li {
+    display: list-item;
+}
+
+
+.et_pb_shop li.product img {
+    height: 300px !important;
+    object-fit: contain !important;
+}
