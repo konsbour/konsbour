@@ -1,0 +1,9 @@
+// change woocommerce gallery thumbnail image size
+add_filter( 'woocommerce_get_image_size_gallery_thumbnail', 'override_woocommerce_image_size_gallery_thumbnail' );
+function override_woocommerce_image_size_gallery_thumbnail( $size ) {
+return array(
+'width' => 9999,
+'height' => 9999,
+'crop' => 0,
+);
+}
